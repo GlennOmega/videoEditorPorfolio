@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Editor Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="mylogo.png" alt="mylogo" />
+          <span>Glenn Omega</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button class="theme-toggle" id="theme-toggle">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Creative Video Editor</h1>
+          <p class="hero-subtitle">
+            Bringing stories to life through innovative editing, smooth
+            transitions, and engaging visual storytelling
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-bg-image"></div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            Passionate video editor with expertise in professional editing
+            software
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a dedicated video editor with extensive experience in creating
+              compelling visual content. My expertise spans across
+              industry-leading software including Adobe Premiere Pro, DaVinci
+              Resolve, and CapCut, allowing me to deliver high-quality results
+              for diverse projects.
+            </p>
+            <p>
+              I leverage AI tools like ChatGPT as a creative assistant for
+              scripting and brainstorming, helping me develop innovative
+              concepts and streamline my creative process. Recently, I launched
+              my own YouTube channel where I showcase editing transitions,
+              storytelling techniques, and creative cuts that engage audiences.
+            </p>
+            <p>
+              My approach combines technical proficiency with creative vision,
+              ensuring every project tells a compelling story through seamless
+              editing, dynamic transitions, and thoughtful post-production work.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>50+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+              <h3>3+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h3>5+</h3>
+              <p>Software Mastered</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Software</h2>
+          <p class="section-subtitle">
+            Professional tools and technologies I use to create amazing content
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="premiere.png" alt="youtube icon" />
+            </div>
+            <h3>Adobe Premiere Pro</h3>
+            <p>
+              Professional video editing with advanced color correction and
+              audio mixing
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="davinci.png" alt="davinci icon" />
+            </div>
+            <h3>DaVinci Resolve</h3>
+            <p>
+              Professional color grading and advanced post-production workflows
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="capcut.png" alt="capcut icon" />
+            </div>
+            <h3>CapCut</h3>
+            <p>Mobile and desktop editing for social media content creation</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="chatgpt.png" alt="" />
+            </div>
+            <h3>ChatGPT</h3>
+            <p>
+              AI-assisted creative scripting and brainstorming for video
+              concepts
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="youtube.png" alt="" />
+            </div>
+            <h3>YouTube Creation</h3>
+            <p>Content strategy, thumbnail design, and channel optimization</p>
+            <div class="skill-level">
+              <div class="skill-bar" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="motion graphic.png" alt="" />
+            </div>
+            <h3>Motion Graphics</h3>
+            <p>
+              Creating engaging animations and visual effects for video content
+            </p>
+            <div class="skill-level">
+              <div class="skill-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Projects</h2>
+          <p class="section-subtitle">
+            Showcasing creative video editing work and YouTube content
+          </p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://pixabay.com/get/g9dc09c15143b5b121261c2638a4783330e647336203f0c75a1660a2aa901974e03824e5bf92811a7a6c6d227f535ff409e9a481ed120e8c914dd16c68b18031d_1280.jpg"
+                alt="Video Editing Project"
+              />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="#" class="project-btn"
+                    ><i class="fas fa-play"></i
+                  ></a>
+                  <a href="#" class="project-btn"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>YouTube Channel</h3>
+              <p>
+                My personal YouTube channel featuring editing tutorials,
+                transition showcases, and creative storytelling techniques.
+              </p>
+              <div class="project-tags">
+                <span>Premiere Pro</span>
+                <span>Transitions</span>
+                <span>Storytelling</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://pixabay.com/get/gea73a21d857573acc5cddb980e349522b0dc141c97051253b309e20611ec559e0ea75aa4a2458a86acfd5f340d2954a09362adf1718ecdeaabc1f95d28528c93_1280.jpg"
+                alt="Creative Editing"
+              />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="#" class="project-btn"
+                    ><i class="fas fa-play"></i
+                  ></a>
+                  <a href="#" class="project-btn"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Creative Cuts Portfolio</h3>
+              <p>
+                A collection of innovative editing techniques, seamless
+                transitions, and dynamic visual storytelling.
+              </p>
+              <div class="project-tags">
+                <span>DaVinci Resolve</span>
+                <span>Color Grading</span>
+                <span>Visual Effects</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://pixabay.com/get/g2ffe86e6de80c06cd0555227c122f4b00b7f693a33921a6c642a169973cd503596784dbfd431dcd62e98e9d95050cd4478598aa23594cacf1063e466f2d6f1cb_1280.jpg"
+                alt="Social Media Content"
+              />
+              <div class="project-overlay">
+                <div class="project-actions">
+                  <a href="#" class="project-btn"
+                    ><i class="fas fa-play"></i
+                  ></a>
+                  <a href="#" class="project-btn"
+                    ><i class="fas fa-external-link-alt"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Social Media Content</h3>
+              <p>
+                Short-form video content optimized for social media platforms
+                with engaging hooks and smooth pacing.
+              </p>
+              <div class="project-tags">
+                <span>CapCut</span>
+                <span>Social Media</span>
+                <span>Short Form</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">
+            Ready to bring your video project to life? Get in touch!
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>glennocubillo101@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h3>Phone</h3>
+                <p>+63 991 6550369</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3>Location</h3>
+                <p>Cebu, Philippines</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.youtube.com/@StoriesTalesProphets-y25f/shorts"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/glennocubillo/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/glenn.omega.304598"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/glenn-omega-36936936a/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+              <span class="form-error" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <span class="form-error" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+              <span class="form-error" id="subject-error"></span>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+              <span class="form-error" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <div class="form-success" id="form-success">
+              Thank you! Your message has been sent successfully.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="mylogo.png" alt="logo" />
+            <span>Glenn Omega</span>
+          </div>
+          <p>&copy; 2024 Creative Video Editor. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
